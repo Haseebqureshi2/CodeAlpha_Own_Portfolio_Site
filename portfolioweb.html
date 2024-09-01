@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts (optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Haseeb</h1>
+            <p>Web Developer | Python Developer | Software Engineer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+I'm Muhammad Haseeb Qureshi, and I am an accomplished professional with a diverse skill set in programming, web development, and system analysis. With expertise in languages such as C, C++, Python, and Java, as well as proficiency in technologies like PHP, MySQL, JavaScript, HTML, CSS, and WordPress, I've successfully completed numerous large-scale projects, including AI and object-oriented programming. I also offer technical services on Fiverr, focusing on programming tasks, and have significant experience in designing UML diagrams, ERD, and project documentation.
+Recently, I completed an internship in frontend development, where I built various web applications and Python-based tools. I am also actively involved in the startup ecosystem, leading my team to victory in the campus round of the Zindigi Prize. Currently, I am working on a personal portfolio website to showcase my skills, projects, and accomplishments.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="project.jpeg" alt="Project 1">
+                <h3>Image Gallery</h3>
+                <p>The Image Gallery Project is a web app built with HTML, CSS, and JavaScript, featuring interactive navigation and smooth transitions for browsing a collection of images. It highlights your skills in creating dynamic, user-friendly web interfaces.
+                </p>
+                <a href="https://github.com/Haseebqureshi2/CodeAlpha_Image_Gallery" class="btn">View Project</a>
+            </div>
+            <!-- Repeat similar blocks for more projects -->
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="haseeb cv.pdf" class="btn" download>Download Resume</a>
+        <!-- Optionally, include a brief overview of your resume -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Haseeb. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/Haseebqureshi2" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/haseeb-qureshi-236883224/" target="_blank">LinkedIn</a>
+            <!-- Add more social links as needed -->
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
